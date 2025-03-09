@@ -50,6 +50,8 @@ android {
 }
 
 dependencies {
+    implementation ("androidx.compose.foundation:foundation:1.0.0")
+    implementation ("androidx.compose.foundation:foundation-layout:1.0.0")
     implementation("io.coil-kt:coil-compose:2.0.0-rc01")
     implementation ("com.android.volley:volley:1.2.1")
     implementation(libs.androidx.core.ktx)
